@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title>Bookmarks</title>
+        <link rel='stylesheet' href='start.css'>
+        <meta name='viewport' content='width=320'> 
+    </head>
+    <body>
+        <script type='text/javascript'>
+            
+            function addBookmark(n, url, title) {
+                
+                var b = document.createElement('div');
+                b.setAttribute('class', 'bookmark');
+                                
+                var d = document.createElement('a');
+                d.setAttribute('class', 'delete');
+                d.setAttribute('href', 'http://delete.bookmark/' + n);
+                var dimg = document.createElement('img');
+                dimg.setAttribute('src', 'delete_small.png');
+                d.appendChild(dimg);
+                b.appendChild(d);
+                
+                var a = document.createElement('a');
+                a.setAttribute('href', url);
+                var s = document.createTextNode(title);
+                a.appendChild(s);
+                b.appendChild(a);
+                
+                var links = document.getElementById('links');
+                links.appendChild(b);
+            }
+            
+            function clearBookmarks() {
+                
+                var links = document.getElementById('links');
+                links.innerHTML = '';
+            }
+                       
+       </script>
+        <div class='main'>
+            <div id='links'></div>
+        </div>
+    </body>
+</html>

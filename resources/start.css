@@ -1,0 +1,43 @@
+
+body {
+    background-image:url('background.png');
+}
+
+.main {
+    font-family: Lucida Grande;
+}
+
+#links .bookmark {
+
+    padding: 4px 4px 4px 4px;
+    margin-top: 4px;
+    background: #598c59;
+    width: 300px;
+    display: block;
+}
+
+#links .bookmark .delete {
+
+    position: relative;
+    top:2px;
+    display: inline;
+    margin-right: 4px;
+}
+
+#links .bookmark a {
+
+    color:#c4c7c6;
+    text-decoration: none;
+}
+
+#links .bookmark a:visited {
+
+    color:#c4c7c6;
+    text-decoration: none;
+}
+
+#links .bookmark a:hover  {
+
+    color:#81a1be;
+    text-decoration: none;
+}

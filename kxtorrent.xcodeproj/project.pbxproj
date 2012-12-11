@@ -1,0 +1,1436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		870064991664AEEE006D4F3E /* checkmark_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 870064921664AEEE006D4F3E /* checkmark_small.png */; };
+		8700649A1664AEEE006D4F3E /* checkmark_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 870064931664AEEE006D4F3E /* checkmark_small@2x.png */; };
+		870064AA1664E684006D4F3E /* TorrentSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 870064A91664E683006D4F3E /* TorrentSettings.m */; };
+		8704C1201652379500042578 /* UIColor+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 8704C11F1652379500042578 /* UIColor+Kolyvan.m */; };
+		870753531650EC45006D58F2 /* TorrentPeersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 870753521650EC45006D58F2 /* TorrentPeersViewController.m */; };
+		870B0FA6164257B1005087E5 /* TorrentTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 870B0FA5164257B1005087E5 /* TorrentTracker.m */; };
+		870E2BDF16686F7800424846 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870E2BDD16686F6B00424846 /* OpenGLES.framework */; };
+		870E2BE016686F7800424846 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870E2BDB16686F6200424846 /* QuartzCore.framework */; };
+		870E2BE116686F7800424846 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870E2BD916686F5A00424846 /* Accelerate.framework */; };
+		870E2BE216686F7800424846 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870E2BD716686F5300424846 /* AudioToolbox.framework */; };
+		870E2BE316686F7800424846 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870E2BD516686F4A00424846 /* CoreAudio.framework */; };
+		870E2C0C16689D5F00424846 /* ColorTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 870E2C0B16689D5F00424846 /* ColorTheme.m */; };
+		870E2C181668BE5600424846 /* KxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 870E2C171668BE5600424846 /* KxTableViewController.m */; };
+		871042C11642691E0086607C /* TorrentServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 871042C01642691E0086607C /* TorrentServer.m */; };
+		871336271669BF9B0040B800 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 871336251669BF9B0040B800 /* pause.png */; };
+		871336281669BF9B0040B800 /* resume.png in Resources */ = {isa = PBXBuildFile; fileRef = 871336261669BF9B0040B800 /* resume.png */; };
+		871336341669CDF20040B800 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 871336331669CDF20040B800 /* background.png */; };
+		871336381669D2290040B800 /* BlacklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 871336371669D2290040B800 /* BlacklistViewController.m */; };
+		8717639D165A0D89009E2FC1 /* collapse.png in Resources */ = {isa = PBXBuildFile; fileRef = 8717639B165A0D89009E2FC1 /* collapse.png */; };
+		8717639E165A0D89009E2FC1 /* expand.png in Resources */ = {isa = PBXBuildFile; fileRef = 8717639C165A0D89009E2FC1 /* expand.png */; };
+		871AC75D165F667200AF613C /* WebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 871AC75C165F667200AF613C /* WebBrowserViewController.m */; };
+		871AC761165F6B7500AF613C /* start.css in Resources */ = {isa = PBXBuildFile; fileRef = 871AC75F165F6B7500AF613C /* start.css */; };
+		871AC762165F6B7500AF613C /* start.html in Resources */ = {isa = PBXBuildFile; fileRef = 871AC760165F6B7500AF613C /* start.html */; };
+		871AC767165F7B2100AF613C /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 871AC765165F7B2100AF613C /* globe.png */; };
+		871AC768165F7B2100AF613C /* globe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 871AC766165F7B2100AF613C /* globe@2x.png */; };
+		871AC76A165F7D3400AF613C /* 1pix.png in Resources */ = {isa = PBXBuildFile; fileRef = 871AC769165F7D3400AF613C /* 1pix.png */; };
+		871AC786165FA4CD00AF613C /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = 871AC785165FA4CD00AF613C /* prev.png */; };
+		8723D1D71660A0C500C9EB69 /* FileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8723D1D61660A0C500C9EB69 /* FileDownloader.m */; };
+		873125C8166B320C00D2E19D /* ProbePort.m in Sources */ = {isa = PBXBuildFile; fileRef = 873125C7166B320C00D2E19D /* ProbePort.m */; };
+		875C0A77164B731C005543CC /* TorrentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C0A76164B731C005543CC /* TorrentsViewController.m */; };
+		875C0A7C164B7388005543CC /* TorrentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C0A7A164B7388005543CC /* TorrentCell.m */; };
+		875C0A7D164B7388005543CC /* TorrentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875C0A7B164B7388005543CC /* TorrentCell.xib */; };
+		875C0A84164B80BA005543CC /* TorrentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C0A83164B80BA005543CC /* TorrentDetailViewController.m */; };
+		875C0A87164B8166005543CC /* helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C0A86164B8166005543CC /* helpers.m */; };
+		8780438A16413D4100B2D162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE8DD1640E8BD00E18169 /* Foundation.framework */; };
+		8780439816413D4100B2D162 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE8EC1640E8BD00E18169 /* SenTestingKit.framework */; };
+		8780439916413D4100B2D162 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE8EE1640E8BD00E18169 /* UIKit.framework */; };
+		8780439A16413D4100B2D162 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE8DD1640E8BD00E18169 /* Foundation.framework */; };
+		8780439D16413D4100B2D162 /* libkxtorrent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8780438916413D4100B2D162 /* libkxtorrent.a */; };
+		878043A316413D4100B2D162 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 878043A116413D4100B2D162 /* InfoPlist.strings */; };
+		878043A616413D4100B2D162 /* kxtorrentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878043A516413D4100B2D162 /* kxtorrentTests.m */; };
+		878043AF16413D6300B2D162 /* bencode.m in Sources */ = {isa = PBXBuildFile; fileRef = 878043AE16413D6300B2D162 /* bencode.m */; };
+		878043B216413F0500B2D162 /* bencode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 878043AD16413D6300B2D162 /* bencode.h */; };
+		878043B516413FB000B2D162 /* resources in Resources */ = {isa = PBXBuildFile; fileRef = 874C8A3E16412E2200E82F4D /* resources */; };
+		87871E5F1642323600ECDBD5 /* TorrentMetaInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 87871E5E1642323600ECDBD5 /* TorrentMetaInfo.m */; };
+		87871E67164235D700ECDBD5 /* TorrentUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 87871E66164235D700ECDBD5 /* TorrentUtils.m */; };
+		87871E6B16423CCE00ECDBD5 /* TorrentErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 87871E6A16423CCE00ECDBD5 /* TorrentErrors.m */; };
+		87871E6D1642421D00ECDBD5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE93F1640F98400E18169 /* libz.dylib */; };
+		87871E6E1642426F00ECDBD5 /* TorrentErrors.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87871E6916423CCE00ECDBD5 /* TorrentErrors.h */; };
+		87871E6F1642427200ECDBD5 /* TorrentMetaInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87871E5D1642323600ECDBD5 /* TorrentMetaInfo.h */; };
+		87871E701642427F00ECDBD5 /* TorrentUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87871E65164235D700ECDBD5 /* TorrentUtils.h */; };
+		87A24CA616577A27004DE427 /* star_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A24CA016577A27004DE427 /* star_empty.png */; };
+		87A24CA716577A27004DE427 /* star_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A24CA116577A27004DE427 /* star_empty@2x.png */; };
+		87A24CA816577A27004DE427 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A24CA216577A27004DE427 /* star.png */; };
+		87A24CA916577A27004DE427 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A24CA316577A27004DE427 /* star@2x.png */; };
+		87A24CBB1657A1C4004DE427 /* TorrentPeerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A24CBA1657A1C4004DE427 /* TorrentPeerCell.m */; };
+		87A24CC21657B164004DE427 /* TorrentPeerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A24CC11657B164004DE427 /* TorrentPeerCell.xib */; };
+		87B2E5FA1666170C0049E880 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B2E5F91666170C0049E880 /* AboutViewController.m */; };
+		87B2E5FE16661AFB0049E880 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B2E5FC16661AF30049E880 /* Twitter.framework */; };
+		87B2E602166629720049E880 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B2E601166629720049E880 /* LogViewController.m */; };
+		87B2E6271666380B0049E880 /* UIFont+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87B2E6261666380B0049E880 /* UIFont+Kolyvan.m */; };
+		87BB17D2166C6DA400725717 /* browser_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 87BB17D0166C6DA400725717 /* browser_refresh.png */; };
+		87BB17D5166C6E4700725717 /* browser_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 87BB17D4166C6E4700725717 /* browser_cancel.png */; };
+		87C18CC61668E6FD00270769 /* prev@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C18CC11668E6FD00270769 /* prev@2x.png */; };
+		87C18CC71668E6FD00270769 /* star_empty_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C18CC21668E6FD00270769 /* star_empty_small.png */; };
+		87C18CC81668E6FD00270769 /* star_empty_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C18CC31668E6FD00270769 /* star_empty_small@2x.png */; };
+		87C18CC91668E6FD00270769 /* star_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C18CC41668E6FD00270769 /* star_small.png */; };
+		87C18CCA1668E6FD00270769 /* star_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C18CC51668E6FD00270769 /* star_small@2x.png */; };
+		87E08C1E166759E70005333C /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E08C1D166759E70005333C /* ImageViewController.m */; };
+		87E08C2216675C670005333C /* UITabBarController+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E08C2116675C670005333C /* UITabBarController+Kolyvan.m */; };
+		87EA8D091665DFA300785549 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EA8D081665DFA300785549 /* SettingsViewController.m */; };
+		87EA8D0C1665E2AE00785549 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EA8D0A1665E2AE00785549 /* settings.png */; };
+		87EA8D0D1665E2AE00785549 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EA8D0B1665E2AE00785549 /* settings@2x.png */; };
+		87EAD7DB16437FDE006048F8 /* TorrentPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD7DA16437FDE006048F8 /* TorrentPeer.m */; };
+		87EAD7E316438AD0006048F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE8EE1640E8BD00E18169 /* UIKit.framework */; };
+		87EAD7E416438AD0006048F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE8DD1640E8BD00E18169 /* Foundation.framework */; };
+		87EAD7E616438AD0006048F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EAD7E516438AD0006048F8 /* CoreGraphics.framework */; };
+		87EAD7EC16438AD0006048F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD7EA16438AD0006048F8 /* InfoPlist.strings */; };
+		87EAD7EE16438AD0006048F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD7ED16438AD0006048F8 /* main.m */; };
+		87EAD7F216438AD0006048F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD7F116438AD0006048F8 /* AppDelegate.m */; };
+		87EAD7F816438AD0006048F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD7F716438AD0006048F8 /* Default-568h@2x.png */; };
+		87EAD80516438AD0006048F8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE8EC1640E8BD00E18169 /* SenTestingKit.framework */; };
+		87EAD80616438AD0006048F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE8EE1640E8BD00E18169 /* UIKit.framework */; };
+		87EAD80716438AD0006048F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE8DD1640E8BD00E18169 /* Foundation.framework */; };
+		87EAD80F16438AD0006048F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD80D16438AD0006048F8 /* InfoPlist.strings */; };
+		87EAD81216438AD0006048F8 /* SwarmLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD81116438AD0006048F8 /* SwarmLoaderTests.m */; };
+		87EC720A166F080300CB7F10 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EC7208166F080300CB7F10 /* Icon.png */; };
+		87EC720B166F080300CB7F10 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EC7209166F080300CB7F10 /* Icon@2x.png */; };
+		87EC7210166F084400CB7F10 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD7F316438AD0006048F8 /* Default.png */; };
+		87EC7211166F084C00CB7F10 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD7F516438AD0006048F8 /* Default@2x.png */; };
+		87EC7220166F161B00CB7F10 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC721F166F161B00CB7F10 /* TextViewController.m */; };
+		87EC7229166F20D900CB7F10 /* firstrun in Resources */ = {isa = PBXBuildFile; fileRef = 87EC7228166F20D900CB7F10 /* firstrun */; };
+		87EF159F1658B07400D86844 /* delete_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EF159D1658B07400D86844 /* delete_small.png */; };
+		87EF15A01658B07400D86844 /* delete_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EF159E1658B07400D86844 /* delete_small@2x.png */; };
+		87EF15A41658B58400D86844 /* TorrentSwarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EF15A31658B58400D86844 /* TorrentSwarmViewController.m */; };
+		87EF15AB1658C94E00D86844 /* TorrentPiecesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87EF15A91658C94E00D86844 /* TorrentPiecesViewController.xib */; };
+		87EF15AE1658C9EA00D86844 /* TorrentPiecesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EF15AD1658C9EA00D86844 /* TorrentPiecesViewController.m */; };
+		87F33699164A250600292983 /* TorrentMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F33698164A250600292983 /* TorrentMeter.m */; };
+		87F3369D164A28A700292983 /* TorrentClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F3369C164A28A700292983 /* TorrentClient.m */; };
+		87F336A0164A2B0800292983 /* TorrentPeerWire.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F3369F164A2B0800292983 /* TorrentPeerWire.m */; };
+		87F5096E1647742C001B2A75 /* TorrentFilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F5096D1647742C001B2A75 /* TorrentFilesTests.m */; };
+		87F509701647785B001B2A75 /* libkxtorrent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8780438916413D4100B2D162 /* libkxtorrent.a */; };
+		87F7CA221643935700FA9B30 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EAD82F16439176006048F8 /* Security.framework */; };
+		87F7CA231643935C00FA9B30 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EAD83216439197006048F8 /* CFNetwork.framework */; };
+		87F7CA311643940600FA9B30 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE93F1640F98400E18169 /* libz.dylib */; };
+		87F7CA44164396FD00FA9B30 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F7CA42164396FD00FA9B30 /* reload.png */; };
+		87F7CA45164396FD00FA9B30 /* reload@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F7CA43164396FD00FA9B30 /* reload@2x.png */; };
+		87F7CA5E1643AF3B00FA9B30 /* TorrentFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F7CA5D1643AF3B00FA9B30 /* TorrentFiles.m */; };
+		87F7CA641643B03A00FA9B30 /* TorrentPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F7CA631643B03A00FA9B30 /* TorrentPiece.m */; };
+		87F818DD165CD4E800579656 /* FileBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F818DC165CD4E800579656 /* FileBrowserViewController.m */; };
+		87F818E4165CD99D00579656 /* fileimages in Resources */ = {isa = PBXBuildFile; fileRef = 87F818E3165CD99D00579656 /* fileimages */; };
+		87F818E7165CDB5800579656 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F818E5165CDB4E00579656 /* MediaPlayer.framework */; };
+		87FDD02716635B260010DB2A /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 87FDD02216635B260010DB2A /* home.png */; };
+		87FDD02816635B260010DB2A /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87FDD02316635B260010DB2A /* home@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8780439B16413D4100B2D162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87FFE8CF1640E88F00E18169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8780438816413D4100B2D162;
+			remoteInfo = kxtorrent;
+		};
+		87EAD80816438AD0006048F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87FFE8CF1640E88F00E18169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87EAD7E016438AD0006048F8;
+			remoteInfo = SwarmLoader;
+		};
+		87F7CA241643935F00FA9B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87FFE8CF1640E88F00E18169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8780438816413D4100B2D162;
+			remoteInfo = kxtorrent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8780438716413D4100B2D162 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				878043B216413F0500B2D162 /* bencode.h in CopyFiles */,
+				87871E6E1642426F00ECDBD5 /* TorrentErrors.h in CopyFiles */,
+				87871E6F1642427200ECDBD5 /* TorrentMetaInfo.h in CopyFiles */,
+				87871E701642427F00ECDBD5 /* TorrentUtils.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		870064921664AEEE006D4F3E /* checkmark_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkmark_small.png; path = resources/images/checkmark_small.png; sourceTree = SOURCE_ROOT; };
+		870064931664AEEE006D4F3E /* checkmark_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "checkmark_small@2x.png"; path = "resources/images/checkmark_small@2x.png"; sourceTree = SOURCE_ROOT; };
+		870064A81664E683006D4F3E /* TorrentSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentSettings.h; sourceTree = "<group>"; };
+		870064A91664E683006D4F3E /* TorrentSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentSettings.m; sourceTree = "<group>"; };
+		8704C11E1652379500042578 /* UIColor+Kolyvan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Kolyvan.h"; path = "category/UIColor+Kolyvan.h"; sourceTree = "<group>"; };
+		8704C11F1652379500042578 /* UIColor+Kolyvan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Kolyvan.m"; path = "category/UIColor+Kolyvan.m"; sourceTree = "<group>"; };
+		870753511650EC45006D58F2 /* TorrentPeersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentPeersViewController.h; sourceTree = "<group>"; };
+		870753521650EC45006D58F2 /* TorrentPeersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentPeersViewController.m; sourceTree = "<group>"; };
+		870B0FA4164257B1005087E5 /* TorrentTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentTracker.h; sourceTree = "<group>"; };
+		870B0FA5164257B1005087E5 /* TorrentTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentTracker.m; sourceTree = "<group>"; };
+		870E2BD516686F4A00424846 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
+		870E2BD716686F5300424846 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		870E2BD916686F5A00424846 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		870E2BDB16686F6200424846 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		870E2BDD16686F6B00424846 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		870E2C0A16689D5E00424846 /* ColorTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTheme.h; sourceTree = "<group>"; };
+		870E2C0B16689D5F00424846 /* ColorTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTheme.m; sourceTree = "<group>"; };
+		870E2C161668BE5600424846 /* KxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxTableViewController.h; sourceTree = "<group>"; };
+		870E2C171668BE5600424846 /* KxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxTableViewController.m; sourceTree = "<group>"; };
+		871042BF1642691E0086607C /* TorrentServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentServer.h; sourceTree = "<group>"; };
+		871042C01642691E0086607C /* TorrentServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentServer.m; sourceTree = "<group>"; };
+		871336251669BF9B0040B800 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = resources/images/pause.png; sourceTree = SOURCE_ROOT; };
+		871336261669BF9B0040B800 /* resume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resume.png; path = resources/images/resume.png; sourceTree = SOURCE_ROOT; };
+		871336331669CDF20040B800 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = resources/images/background.png; sourceTree = SOURCE_ROOT; };
+		871336361669D2290040B800 /* BlacklistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlacklistViewController.h; sourceTree = "<group>"; };
+		871336371669D2290040B800 /* BlacklistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlacklistViewController.m; sourceTree = "<group>"; };
+		8717639B165A0D89009E2FC1 /* collapse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = collapse.png; path = resources/images/collapse.png; sourceTree = SOURCE_ROOT; };
+		8717639C165A0D89009E2FC1 /* expand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = expand.png; path = resources/images/expand.png; sourceTree = SOURCE_ROOT; };
+		871AC75B165F667200AF613C /* WebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserViewController.h; sourceTree = "<group>"; };
+		871AC75C165F667200AF613C /* WebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowserViewController.m; sourceTree = "<group>"; };
+		871AC75F165F6B7500AF613C /* start.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = start.css; path = resources/start.css; sourceTree = SOURCE_ROOT; };
+		871AC760165F6B7500AF613C /* start.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = start.html; path = resources/start.html; sourceTree = SOURCE_ROOT; };
+		871AC765165F7B2100AF613C /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = globe.png; path = resources/images/globe.png; sourceTree = SOURCE_ROOT; };
+		871AC766165F7B2100AF613C /* globe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "globe@2x.png"; path = "resources/images/globe@2x.png"; sourceTree = SOURCE_ROOT; };
+		871AC769165F7D3400AF613C /* 1pix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1pix.png; path = resources/images/1pix.png; sourceTree = SOURCE_ROOT; };
+		871AC785165FA4CD00AF613C /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prev.png; path = resources/images/prev.png; sourceTree = SOURCE_ROOT; };
+		8723D1D51660A0C500C9EB69 /* FileDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloader.h; sourceTree = "<group>"; };
+		8723D1D61660A0C500C9EB69 /* FileDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDownloader.m; sourceTree = "<group>"; };
+		873125C6166B320C00D2E19D /* ProbePort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProbePort.h; sourceTree = "<group>"; };
+		873125C7166B320C00D2E19D /* ProbePort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProbePort.m; sourceTree = "<group>"; };
+		874C8A3E16412E2200E82F4D /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
+		875C0A75164B731C005543CC /* TorrentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentsViewController.h; sourceTree = "<group>"; };
+		875C0A76164B731C005543CC /* TorrentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentsViewController.m; sourceTree = "<group>"; };
+		875C0A79164B7388005543CC /* TorrentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentCell.h; sourceTree = "<group>"; };
+		875C0A7A164B7388005543CC /* TorrentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentCell.m; sourceTree = "<group>"; };
+		875C0A7B164B7388005543CC /* TorrentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TorrentCell.xib; sourceTree = "<group>"; };
+		875C0A82164B80BA005543CC /* TorrentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentDetailViewController.h; sourceTree = "<group>"; };
+		875C0A83164B80BA005543CC /* TorrentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentDetailViewController.m; sourceTree = "<group>"; };
+		875C0A85164B8166005543CC /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		875C0A86164B8166005543CC /* helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helpers.m; sourceTree = "<group>"; };
+		8780438916413D4100B2D162 /* libkxtorrent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libkxtorrent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8780438D16413D4100B2D162 /* kxtorrent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kxtorrent-Prefix.pch"; sourceTree = "<group>"; };
+		8780439716413D4100B2D162 /* kxtorrentTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kxtorrentTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		878043A016413D4100B2D162 /* kxtorrentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kxtorrentTests-Info.plist"; sourceTree = "<group>"; };
+		878043A216413D4100B2D162 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		878043A416413D4100B2D162 /* kxtorrentTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kxtorrentTests.h; sourceTree = "<group>"; };
+		878043A516413D4100B2D162 /* kxtorrentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kxtorrentTests.m; sourceTree = "<group>"; };
+		878043AD16413D6300B2D162 /* bencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bencode.h; sourceTree = "<group>"; };
+		878043AE16413D6300B2D162 /* bencode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bencode.m; sourceTree = "<group>"; };
+		87871E5D1642323600ECDBD5 /* TorrentMetaInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentMetaInfo.h; sourceTree = "<group>"; };
+		87871E5E1642323600ECDBD5 /* TorrentMetaInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentMetaInfo.m; sourceTree = "<group>"; };
+		87871E65164235D700ECDBD5 /* TorrentUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentUtils.h; sourceTree = "<group>"; };
+		87871E66164235D700ECDBD5 /* TorrentUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentUtils.m; sourceTree = "<group>"; };
+		87871E6916423CCE00ECDBD5 /* TorrentErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentErrors.h; sourceTree = "<group>"; };
+		87871E6A16423CCE00ECDBD5 /* TorrentErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentErrors.m; sourceTree = "<group>"; };
+		87A24CA016577A27004DE427 /* star_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_empty.png; path = resources/images/star_empty.png; sourceTree = SOURCE_ROOT; };
+		87A24CA116577A27004DE427 /* star_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_empty@2x.png"; path = "resources/images/star_empty@2x.png"; sourceTree = SOURCE_ROOT; };
+		87A24CA216577A27004DE427 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = resources/images/star.png; sourceTree = SOURCE_ROOT; };
+		87A24CA316577A27004DE427 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star@2x.png"; path = "resources/images/star@2x.png"; sourceTree = SOURCE_ROOT; };
+		87A24CB91657A1C4004DE427 /* TorrentPeerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentPeerCell.h; sourceTree = "<group>"; };
+		87A24CBA1657A1C4004DE427 /* TorrentPeerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentPeerCell.m; sourceTree = "<group>"; };
+		87A24CC11657B164004DE427 /* TorrentPeerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TorrentPeerCell.xib; sourceTree = "<group>"; };
+		87B2E5F81666170C0049E880 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		87B2E5F91666170C0049E880 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		87B2E5FC16661AF30049E880 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Twitter.framework; sourceTree = DEVELOPER_DIR; };
+		87B2E600166629710049E880 /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		87B2E601166629720049E880 /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		87B2E6251666380B0049E880 /* UIFont+Kolyvan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+Kolyvan.h"; path = "category/UIFont+Kolyvan.h"; sourceTree = "<group>"; };
+		87B2E6261666380B0049E880 /* UIFont+Kolyvan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Kolyvan.m"; path = "category/UIFont+Kolyvan.m"; sourceTree = "<group>"; };
+		87BB17D0166C6DA400725717 /* browser_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = browser_refresh.png; path = resources/images/browser_refresh.png; sourceTree = SOURCE_ROOT; };
+		87BB17D4166C6E4700725717 /* browser_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = browser_cancel.png; path = resources/images/browser_cancel.png; sourceTree = SOURCE_ROOT; };
+		87C18CC11668E6FD00270769 /* prev@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "prev@2x.png"; path = "resources/images/prev@2x.png"; sourceTree = SOURCE_ROOT; };
+		87C18CC21668E6FD00270769 /* star_empty_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_empty_small.png; path = resources/images/star_empty_small.png; sourceTree = SOURCE_ROOT; };
+		87C18CC31668E6FD00270769 /* star_empty_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_empty_small@2x.png"; path = "resources/images/star_empty_small@2x.png"; sourceTree = SOURCE_ROOT; };
+		87C18CC41668E6FD00270769 /* star_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_small.png; path = resources/images/star_small.png; sourceTree = SOURCE_ROOT; };
+		87C18CC51668E6FD00270769 /* star_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_small@2x.png"; path = "resources/images/star_small@2x.png"; sourceTree = SOURCE_ROOT; };
+		87E08C1C166759E70005333C /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		87E08C1D166759E70005333C /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		87E08C2016675C670005333C /* UITabBarController+Kolyvan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+Kolyvan.h"; path = "category/UITabBarController+Kolyvan.h"; sourceTree = "<group>"; };
+		87E08C2116675C670005333C /* UITabBarController+Kolyvan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+Kolyvan.m"; path = "category/UITabBarController+Kolyvan.m"; sourceTree = "<group>"; };
+		87EA8D071665DFA300785549 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		87EA8D081665DFA300785549 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		87EA8D0A1665E2AE00785549 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = resources/images/settings.png; sourceTree = SOURCE_ROOT; };
+		87EA8D0B1665E2AE00785549 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings@2x.png"; path = "resources/images/settings@2x.png"; sourceTree = SOURCE_ROOT; };
+		87EAD7D916437FDE006048F8 /* TorrentPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentPeer.h; sourceTree = "<group>"; };
+		87EAD7DA16437FDE006048F8 /* TorrentPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentPeer.m; sourceTree = "<group>"; };
+		87EAD7E116438AD0006048F8 /* SwarmLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87EAD7E516438AD0006048F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		87EAD7E916438AD0006048F8 /* SwarmLoader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwarmLoader-Info.plist"; sourceTree = "<group>"; };
+		87EAD7EB16438AD0006048F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87EAD7ED16438AD0006048F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87EAD7EF16438AD0006048F8 /* SwarmLoader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwarmLoader-Prefix.pch"; sourceTree = "<group>"; };
+		87EAD7F016438AD0006048F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87EAD7F116438AD0006048F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87EAD7F316438AD0006048F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		87EAD7F516438AD0006048F8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		87EAD7F716438AD0006048F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		87EAD80416438AD0006048F8 /* SwarmLoaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwarmLoaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87EAD80C16438AD0006048F8 /* SwarmLoaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwarmLoaderTests-Info.plist"; sourceTree = "<group>"; };
+		87EAD80E16438AD0006048F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87EAD81016438AD0006048F8 /* SwarmLoaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwarmLoaderTests.h; sourceTree = "<group>"; };
+		87EAD81116438AD0006048F8 /* SwarmLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwarmLoaderTests.m; sourceTree = "<group>"; };
+		87EAD82F16439176006048F8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		87EAD83216439197006048F8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		87EC7208166F080300CB7F10 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		87EC7209166F080300CB7F10 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		87EC721E166F161B00CB7F10 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		87EC721F166F161B00CB7F10 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		87EC7228166F20D900CB7F10 /* firstrun */ = {isa = PBXFileReference; lastKnownFileType = folder; name = firstrun; path = resources/firstrun; sourceTree = SOURCE_ROOT; };
+		87EF159D1658B07400D86844 /* delete_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete_small.png; path = resources/images/delete_small.png; sourceTree = SOURCE_ROOT; };
+		87EF159E1658B07400D86844 /* delete_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "delete_small@2x.png"; path = "resources/images/delete_small@2x.png"; sourceTree = SOURCE_ROOT; };
+		87EF15A21658B58400D86844 /* TorrentSwarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentSwarmViewController.h; sourceTree = "<group>"; };
+		87EF15A31658B58400D86844 /* TorrentSwarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentSwarmViewController.m; sourceTree = "<group>"; };
+		87EF15A91658C94E00D86844 /* TorrentPiecesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TorrentPiecesViewController.xib; sourceTree = "<group>"; };
+		87EF15AC1658C9EA00D86844 /* TorrentPiecesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentPiecesViewController.h; sourceTree = "<group>"; };
+		87EF15AD1658C9EA00D86844 /* TorrentPiecesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentPiecesViewController.m; sourceTree = "<group>"; };
+		87F33697164A250600292983 /* TorrentMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentMeter.h; sourceTree = "<group>"; };
+		87F33698164A250600292983 /* TorrentMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentMeter.m; sourceTree = "<group>"; };
+		87F3369B164A28A700292983 /* TorrentClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentClient.h; sourceTree = "<group>"; };
+		87F3369C164A28A700292983 /* TorrentClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentClient.m; sourceTree = "<group>"; };
+		87F3369E164A2B0800292983 /* TorrentPeerWire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentPeerWire.h; sourceTree = "<group>"; };
+		87F3369F164A2B0800292983 /* TorrentPeerWire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentPeerWire.m; sourceTree = "<group>"; };
+		87F5096C1647742C001B2A75 /* TorrentFilesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentFilesTests.h; sourceTree = "<group>"; };
+		87F5096D1647742C001B2A75 /* TorrentFilesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentFilesTests.m; sourceTree = "<group>"; };
+		87F7CA42164396FD00FA9B30 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = reload.png; path = resources/images/reload.png; sourceTree = SOURCE_ROOT; };
+		87F7CA43164396FD00FA9B30 /* reload@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reload@2x.png"; path = "resources/images/reload@2x.png"; sourceTree = SOURCE_ROOT; };
+		87F7CA5C1643AF3B00FA9B30 /* TorrentFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentFiles.h; sourceTree = "<group>"; };
+		87F7CA5D1643AF3B00FA9B30 /* TorrentFiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentFiles.m; sourceTree = "<group>"; };
+		87F7CA621643B03A00FA9B30 /* TorrentPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TorrentPiece.h; sourceTree = "<group>"; };
+		87F7CA631643B03A00FA9B30 /* TorrentPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TorrentPiece.m; sourceTree = "<group>"; };
+		87F818DB165CD4E800579656 /* FileBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileBrowserViewController.h; sourceTree = "<group>"; };
+		87F818DC165CD4E800579656 /* FileBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileBrowserViewController.m; sourceTree = "<group>"; };
+		87F818E3165CD99D00579656 /* fileimages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fileimages; path = resources/images/fileimages; sourceTree = SOURCE_ROOT; };
+		87F818E5165CDB4E00579656 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		87FDD02216635B260010DB2A /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = resources/images/home.png; sourceTree = SOURCE_ROOT; };
+		87FDD02316635B260010DB2A /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home@2x.png"; path = "resources/images/home@2x.png"; sourceTree = SOURCE_ROOT; };
+		87FFE8DD1640E8BD00E18169 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87FFE8EC1640E8BD00E18169 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		87FFE8EE1640E8BD00E18169 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		87FFE93F1640F98400E18169 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8780438616413D4100B2D162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8780438A16413D4100B2D162 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8780439316413D4100B2D162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87871E6D1642421D00ECDBD5 /* libz.dylib in Frameworks */,
+				8780439816413D4100B2D162 /* SenTestingKit.framework in Frameworks */,
+				8780439916413D4100B2D162 /* UIKit.framework in Frameworks */,
+				8780439A16413D4100B2D162 /* Foundation.framework in Frameworks */,
+				8780439D16413D4100B2D162 /* libkxtorrent.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EAD7DE16438AD0006048F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F7CA311643940600FA9B30 /* libz.dylib in Frameworks */,
+				87EAD7E616438AD0006048F8 /* CoreGraphics.framework in Frameworks */,
+				87EAD7E316438AD0006048F8 /* UIKit.framework in Frameworks */,
+				87B2E5FE16661AFB0049E880 /* Twitter.framework in Frameworks */,
+				87F7CA231643935C00FA9B30 /* CFNetwork.framework in Frameworks */,
+				87F7CA221643935700FA9B30 /* Security.framework in Frameworks */,
+				87EAD7E416438AD0006048F8 /* Foundation.framework in Frameworks */,
+				87F818E7165CDB5800579656 /* MediaPlayer.framework in Frameworks */,
+				870E2BDF16686F7800424846 /* OpenGLES.framework in Frameworks */,
+				870E2BE016686F7800424846 /* QuartzCore.framework in Frameworks */,
+				870E2BE116686F7800424846 /* Accelerate.framework in Frameworks */,
+				870E2BE216686F7800424846 /* AudioToolbox.framework in Frameworks */,
+				870E2BE316686F7800424846 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EAD80016438AD0006048F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EAD80516438AD0006048F8 /* SenTestingKit.framework in Frameworks */,
+				87EAD80616438AD0006048F8 /* UIKit.framework in Frameworks */,
+				87EAD80716438AD0006048F8 /* Foundation.framework in Frameworks */,
+				87F509701647785B001B2A75 /* libkxtorrent.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8704C11C1652378800042578 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				87E08C2016675C670005333C /* UITabBarController+Kolyvan.h */,
+				87E08C2116675C670005333C /* UITabBarController+Kolyvan.m */,
+				87B2E6251666380B0049E880 /* UIFont+Kolyvan.h */,
+				87B2E6261666380B0049E880 /* UIFont+Kolyvan.m */,
+				8704C11E1652379500042578 /* UIColor+Kolyvan.h */,
+				8704C11F1652379500042578 /* UIColor+Kolyvan.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+		8780438B16413D4100B2D162 /* kxtorrent */ = {
+			isa = PBXGroup;
+			children = (
+				878043AD16413D6300B2D162 /* bencode.h */,
+				878043AE16413D6300B2D162 /* bencode.m */,
+				87871E6916423CCE00ECDBD5 /* TorrentErrors.h */,
+				87871E6A16423CCE00ECDBD5 /* TorrentErrors.m */,
+				87871E65164235D700ECDBD5 /* TorrentUtils.h */,
+				87871E66164235D700ECDBD5 /* TorrentUtils.m */,
+				87871E5D1642323600ECDBD5 /* TorrentMetaInfo.h */,
+				87871E5E1642323600ECDBD5 /* TorrentMetaInfo.m */,
+				870064A81664E683006D4F3E /* TorrentSettings.h */,
+				870064A91664E683006D4F3E /* TorrentSettings.m */,
+				870B0FA4164257B1005087E5 /* TorrentTracker.h */,
+				870B0FA5164257B1005087E5 /* TorrentTracker.m */,
+				87F7CA5C1643AF3B00FA9B30 /* TorrentFiles.h */,
+				87F7CA5D1643AF3B00FA9B30 /* TorrentFiles.m */,
+				87F7CA621643B03A00FA9B30 /* TorrentPiece.h */,
+				87F7CA631643B03A00FA9B30 /* TorrentPiece.m */,
+				87F33697164A250600292983 /* TorrentMeter.h */,
+				87F33698164A250600292983 /* TorrentMeter.m */,
+				87EAD7D916437FDE006048F8 /* TorrentPeer.h */,
+				87EAD7DA16437FDE006048F8 /* TorrentPeer.m */,
+				87F3369E164A2B0800292983 /* TorrentPeerWire.h */,
+				87F3369F164A2B0800292983 /* TorrentPeerWire.m */,
+				87F3369B164A28A700292983 /* TorrentClient.h */,
+				87F3369C164A28A700292983 /* TorrentClient.m */,
+				871042BF1642691E0086607C /* TorrentServer.h */,
+				871042C01642691E0086607C /* TorrentServer.m */,
+				8780438C16413D4100B2D162 /* Supporting Files */,
+			);
+			path = kxtorrent;
+			sourceTree = "<group>";
+		};
+		8780438C16413D4100B2D162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8780438D16413D4100B2D162 /* kxtorrent-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8780439E16413D4100B2D162 /* kxtorrentTests */ = {
+			isa = PBXGroup;
+			children = (
+				878043A416413D4100B2D162 /* kxtorrentTests.h */,
+				878043A516413D4100B2D162 /* kxtorrentTests.m */,
+				8780439F16413D4100B2D162 /* Supporting Files */,
+			);
+			path = kxtorrentTests;
+			sourceTree = "<group>";
+		};
+		8780439F16413D4100B2D162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				878043A016413D4100B2D162 /* kxtorrentTests-Info.plist */,
+				878043A116413D4100B2D162 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87EAD7E716438AD0006048F8 /* SwarmLoader */ = {
+			isa = PBXGroup;
+			children = (
+				8704C11C1652378800042578 /* category */,
+				87F7CA271643938800FA9B30 /* resources */,
+				87EAD7F016438AD0006048F8 /* AppDelegate.h */,
+				87EAD7F116438AD0006048F8 /* AppDelegate.m */,
+				875C0A79164B7388005543CC /* TorrentCell.h */,
+				875C0A7A164B7388005543CC /* TorrentCell.m */,
+				87A24CB91657A1C4004DE427 /* TorrentPeerCell.h */,
+				87A24CBA1657A1C4004DE427 /* TorrentPeerCell.m */,
+				875C0A75164B731C005543CC /* TorrentsViewController.h */,
+				875C0A76164B731C005543CC /* TorrentsViewController.m */,
+				875C0A82164B80BA005543CC /* TorrentDetailViewController.h */,
+				875C0A83164B80BA005543CC /* TorrentDetailViewController.m */,
+				870753511650EC45006D58F2 /* TorrentPeersViewController.h */,
+				870753521650EC45006D58F2 /* TorrentPeersViewController.m */,
+				87EF15A21658B58400D86844 /* TorrentSwarmViewController.h */,
+				87EF15A31658B58400D86844 /* TorrentSwarmViewController.m */,
+				87EF15AC1658C9EA00D86844 /* TorrentPiecesViewController.h */,
+				87EF15AD1658C9EA00D86844 /* TorrentPiecesViewController.m */,
+				87EF15A91658C94E00D86844 /* TorrentPiecesViewController.xib */,
+				87F818DB165CD4E800579656 /* FileBrowserViewController.h */,
+				87F818DC165CD4E800579656 /* FileBrowserViewController.m */,
+				871AC75B165F667200AF613C /* WebBrowserViewController.h */,
+				871AC75C165F667200AF613C /* WebBrowserViewController.m */,
+				87EC721E166F161B00CB7F10 /* TextViewController.h */,
+				87EC721F166F161B00CB7F10 /* TextViewController.m */,
+				87E08C1C166759E70005333C /* ImageViewController.h */,
+				87E08C1D166759E70005333C /* ImageViewController.m */,
+				87EA8D071665DFA300785549 /* SettingsViewController.h */,
+				87EA8D081665DFA300785549 /* SettingsViewController.m */,
+				87B2E5F81666170C0049E880 /* AboutViewController.h */,
+				87B2E5F91666170C0049E880 /* AboutViewController.m */,
+				87B2E600166629710049E880 /* LogViewController.h */,
+				87B2E601166629720049E880 /* LogViewController.m */,
+				871336361669D2290040B800 /* BlacklistViewController.h */,
+				871336371669D2290040B800 /* BlacklistViewController.m */,
+				875C0A85164B8166005543CC /* helpers.h */,
+				875C0A86164B8166005543CC /* helpers.m */,
+				870E2C0A16689D5E00424846 /* ColorTheme.h */,
+				870E2C0B16689D5F00424846 /* ColorTheme.m */,
+				870E2C161668BE5600424846 /* KxTableViewController.h */,
+				870E2C171668BE5600424846 /* KxTableViewController.m */,
+				8723D1D51660A0C500C9EB69 /* FileDownloader.h */,
+				8723D1D61660A0C500C9EB69 /* FileDownloader.m */,
+				873125C6166B320C00D2E19D /* ProbePort.h */,
+				873125C7166B320C00D2E19D /* ProbePort.m */,
+				875C0A7B164B7388005543CC /* TorrentCell.xib */,
+				87A24CC11657B164004DE427 /* TorrentPeerCell.xib */,
+				87EAD7E816438AD0006048F8 /* Supporting Files */,
+			);
+			path = SwarmLoader;
+			sourceTree = "<group>";
+		};
+		87EAD7E816438AD0006048F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87EC7208166F080300CB7F10 /* Icon.png */,
+				87EC7209166F080300CB7F10 /* Icon@2x.png */,
+				87EAD7E916438AD0006048F8 /* SwarmLoader-Info.plist */,
+				87EAD7EA16438AD0006048F8 /* InfoPlist.strings */,
+				87EAD7ED16438AD0006048F8 /* main.m */,
+				87EAD7EF16438AD0006048F8 /* SwarmLoader-Prefix.pch */,
+				87EAD7F316438AD0006048F8 /* Default.png */,
+				87EAD7F516438AD0006048F8 /* Default@2x.png */,
+				87EAD7F716438AD0006048F8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87EAD80A16438AD0006048F8 /* SwarmLoaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				87EAD81016438AD0006048F8 /* SwarmLoaderTests.h */,
+				87EAD81116438AD0006048F8 /* SwarmLoaderTests.m */,
+				87F5096C1647742C001B2A75 /* TorrentFilesTests.h */,
+				87F5096D1647742C001B2A75 /* TorrentFilesTests.m */,
+				87EAD80B16438AD0006048F8 /* Supporting Files */,
+			);
+			path = SwarmLoaderTests;
+			sourceTree = "<group>";
+		};
+		87EAD80B16438AD0006048F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87EAD80C16438AD0006048F8 /* SwarmLoaderTests-Info.plist */,
+				87EAD80D16438AD0006048F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87EC527B1677114F00864C04 /* submodules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = submodules;
+			sourceTree = "<group>";
+		};
+		87F7CA271643938800FA9B30 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				87EC7228166F20D900CB7F10 /* firstrun */,
+				87F818E3165CD99D00579656 /* fileimages */,
+				8717639B165A0D89009E2FC1 /* collapse.png */,
+				8717639C165A0D89009E2FC1 /* expand.png */,
+				87EF159D1658B07400D86844 /* delete_small.png */,
+				87EF159E1658B07400D86844 /* delete_small@2x.png */,
+				87A24CA016577A27004DE427 /* star_empty.png */,
+				87A24CA116577A27004DE427 /* star_empty@2x.png */,
+				87A24CA216577A27004DE427 /* star.png */,
+				87A24CA316577A27004DE427 /* star@2x.png */,
+				87C18CC11668E6FD00270769 /* prev@2x.png */,
+				87C18CC21668E6FD00270769 /* star_empty_small.png */,
+				87C18CC31668E6FD00270769 /* star_empty_small@2x.png */,
+				87C18CC41668E6FD00270769 /* star_small.png */,
+				87C18CC51668E6FD00270769 /* star_small@2x.png */,
+				87FDD02216635B260010DB2A /* home.png */,
+				87FDD02316635B260010DB2A /* home@2x.png */,
+				871AC785165FA4CD00AF613C /* prev.png */,
+				871AC769165F7D3400AF613C /* 1pix.png */,
+				871AC765165F7B2100AF613C /* globe.png */,
+				871AC766165F7B2100AF613C /* globe@2x.png */,
+				870064921664AEEE006D4F3E /* checkmark_small.png */,
+				870064931664AEEE006D4F3E /* checkmark_small@2x.png */,
+				87F7CA42164396FD00FA9B30 /* reload.png */,
+				87F7CA43164396FD00FA9B30 /* reload@2x.png */,
+				87EA8D0A1665E2AE00785549 /* settings.png */,
+				87EA8D0B1665E2AE00785549 /* settings@2x.png */,
+				871336251669BF9B0040B800 /* pause.png */,
+				871336261669BF9B0040B800 /* resume.png */,
+				871336331669CDF20040B800 /* background.png */,
+				87BB17D4166C6E4700725717 /* browser_cancel.png */,
+				87BB17D0166C6DA400725717 /* browser_refresh.png */,
+				871AC75F165F6B7500AF613C /* start.css */,
+				871AC760165F6B7500AF613C /* start.html */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		87FFE8CD1640E88F00E18169 = {
+			isa = PBXGroup;
+			children = (
+				87EC527B1677114F00864C04 /* submodules */,
+				8780438B16413D4100B2D162 /* kxtorrent */,
+				8780439E16413D4100B2D162 /* kxtorrentTests */,
+				874C8A3E16412E2200E82F4D /* resources */,
+				87EAD7E716438AD0006048F8 /* SwarmLoader */,
+				87EAD80A16438AD0006048F8 /* SwarmLoaderTests */,
+				87FFE8DC1640E8BD00E18169 /* Frameworks */,
+				87FFE8DB1640E8BD00E18169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87FFE8DB1640E8BD00E18169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8780438916413D4100B2D162 /* libkxtorrent.a */,
+				8780439716413D4100B2D162 /* kxtorrentTests.octest */,
+				87EAD7E116438AD0006048F8 /* SwarmLoader.app */,
+				87EAD80416438AD0006048F8 /* SwarmLoaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87FFE8DC1640E8BD00E18169 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				870E2BDD16686F6B00424846 /* OpenGLES.framework */,
+				870E2BDB16686F6200424846 /* QuartzCore.framework */,
+				870E2BD916686F5A00424846 /* Accelerate.framework */,
+				870E2BD716686F5300424846 /* AudioToolbox.framework */,
+				870E2BD516686F4A00424846 /* CoreAudio.framework */,
+				87B2E5FC16661AF30049E880 /* Twitter.framework */,
+				87F818E5165CDB4E00579656 /* MediaPlayer.framework */,
+				87EAD83216439197006048F8 /* CFNetwork.framework */,
+				87FFE93F1640F98400E18169 /* libz.dylib */,
+				87FFE8DD1640E8BD00E18169 /* Foundation.framework */,
+				87FFE8EC1640E8BD00E18169 /* SenTestingKit.framework */,
+				87FFE8EE1640E8BD00E18169 /* UIKit.framework */,
+				87EAD7E516438AD0006048F8 /* CoreGraphics.framework */,
+				87EAD82F16439176006048F8 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8780438816413D4100B2D162 /* kxtorrent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878043A716413D4100B2D162 /* Build configuration list for PBXNativeTarget "kxtorrent" */;
+			buildPhases = (
+				8780438516413D4100B2D162 /* Sources */,
+				8780438616413D4100B2D162 /* Frameworks */,
+				8780438716413D4100B2D162 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kxtorrent;
+			productName = kxtorrent;
+			productReference = 8780438916413D4100B2D162 /* libkxtorrent.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8780439616413D4100B2D162 /* kxtorrentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878043AA16413D4100B2D162 /* Build configuration list for PBXNativeTarget "kxtorrentTests" */;
+			buildPhases = (
+				8780439216413D4100B2D162 /* Sources */,
+				8780439316413D4100B2D162 /* Frameworks */,
+				8780439416413D4100B2D162 /* Resources */,
+				8780439516413D4100B2D162 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8780439C16413D4100B2D162 /* PBXTargetDependency */,
+			);
+			name = kxtorrentTests;
+			productName = kxtorrentTests;
+			productReference = 8780439716413D4100B2D162 /* kxtorrentTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		87EAD7E016438AD0006048F8 /* SwarmLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87EAD81316438AD0006048F8 /* Build configuration list for PBXNativeTarget "SwarmLoader" */;
+			buildPhases = (
+				87EAD7DD16438AD0006048F8 /* Sources */,
+				87EAD7DE16438AD0006048F8 /* Frameworks */,
+				87EAD7DF16438AD0006048F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F7CA251643935F00FA9B30 /* PBXTargetDependency */,
+			);
+			name = SwarmLoader;
+			productName = SwarmLoader;
+			productReference = 87EAD7E116438AD0006048F8 /* SwarmLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87EAD80316438AD0006048F8 /* SwarmLoaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87EAD81616438AD0006048F8 /* Build configuration list for PBXNativeTarget "SwarmLoaderTests" */;
+			buildPhases = (
+				87EAD7FF16438AD0006048F8 /* Sources */,
+				87EAD80016438AD0006048F8 /* Frameworks */,
+				87EAD80116438AD0006048F8 /* Resources */,
+				87EAD80216438AD0006048F8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87EAD80916438AD0006048F8 /* PBXTargetDependency */,
+			);
+			name = SwarmLoaderTests;
+			productName = SwarmLoaderTests;
+			productReference = 87EAD80416438AD0006048F8 /* SwarmLoaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87FFE8CF1640E88F00E18169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 87FFE8D21640E88F00E18169 /* Build configuration list for PBXProject "kxtorrent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87FFE8CD1640E88F00E18169;
+			productRefGroup = 87FFE8DB1640E8BD00E18169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8780438816413D4100B2D162 /* kxtorrent */,
+				8780439616413D4100B2D162 /* kxtorrentTests */,
+				87EAD7E016438AD0006048F8 /* SwarmLoader */,
+				87EAD80316438AD0006048F8 /* SwarmLoaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8780439416413D4100B2D162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878043A316413D4100B2D162 /* InfoPlist.strings in Resources */,
+				878043B516413FB000B2D162 /* resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EAD7DF16438AD0006048F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EAD7EC16438AD0006048F8 /* InfoPlist.strings in Resources */,
+				87F7CA44164396FD00FA9B30 /* reload.png in Resources */,
+				87F7CA45164396FD00FA9B30 /* reload@2x.png in Resources */,
+				875C0A7D164B7388005543CC /* TorrentCell.xib in Resources */,
+				87A24CA616577A27004DE427 /* star_empty.png in Resources */,
+				87A24CA716577A27004DE427 /* star_empty@2x.png in Resources */,
+				87A24CA816577A27004DE427 /* star.png in Resources */,
+				87A24CA916577A27004DE427 /* star@2x.png in Resources */,
+				87A24CC21657B164004DE427 /* TorrentPeerCell.xib in Resources */,
+				87EF159F1658B07400D86844 /* delete_small.png in Resources */,
+				87EF15A01658B07400D86844 /* delete_small@2x.png in Resources */,
+				87EF15AB1658C94E00D86844 /* TorrentPiecesViewController.xib in Resources */,
+				8717639D165A0D89009E2FC1 /* collapse.png in Resources */,
+				8717639E165A0D89009E2FC1 /* expand.png in Resources */,
+				87F818E4165CD99D00579656 /* fileimages in Resources */,
+				871AC761165F6B7500AF613C /* start.css in Resources */,
+				871AC762165F6B7500AF613C /* start.html in Resources */,
+				871AC767165F7B2100AF613C /* globe.png in Resources */,
+				871AC768165F7B2100AF613C /* globe@2x.png in Resources */,
+				871AC76A165F7D3400AF613C /* 1pix.png in Resources */,
+				871AC786165FA4CD00AF613C /* prev.png in Resources */,
+				87FDD02716635B260010DB2A /* home.png in Resources */,
+				87FDD02816635B260010DB2A /* home@2x.png in Resources */,
+				870064991664AEEE006D4F3E /* checkmark_small.png in Resources */,
+				8700649A1664AEEE006D4F3E /* checkmark_small@2x.png in Resources */,
+				87EA8D0C1665E2AE00785549 /* settings.png in Resources */,
+				87EA8D0D1665E2AE00785549 /* settings@2x.png in Resources */,
+				87C18CC61668E6FD00270769 /* prev@2x.png in Resources */,
+				87C18CC71668E6FD00270769 /* star_empty_small.png in Resources */,
+				87C18CC81668E6FD00270769 /* star_empty_small@2x.png in Resources */,
+				87C18CC91668E6FD00270769 /* star_small.png in Resources */,
+				87C18CCA1668E6FD00270769 /* star_small@2x.png in Resources */,
+				871336271669BF9B0040B800 /* pause.png in Resources */,
+				871336281669BF9B0040B800 /* resume.png in Resources */,
+				871336341669CDF20040B800 /* background.png in Resources */,
+				87BB17D2166C6DA400725717 /* browser_refresh.png in Resources */,
+				87BB17D5166C6E4700725717 /* browser_cancel.png in Resources */,
+				87EC720A166F080300CB7F10 /* Icon.png in Resources */,
+				87EC720B166F080300CB7F10 /* Icon@2x.png in Resources */,
+				87EC7210166F084400CB7F10 /* Default.png in Resources */,
+				87EC7211166F084C00CB7F10 /* Default@2x.png in Resources */,
+				87EAD7F816438AD0006048F8 /* Default-568h@2x.png in Resources */,
+				87EC7229166F20D900CB7F10 /* firstrun in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EAD80116438AD0006048F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EAD80F16438AD0006048F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8780439516413D4100B2D162 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		87EAD80216438AD0006048F8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8780438516413D4100B2D162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878043AF16413D6300B2D162 /* bencode.m in Sources */,
+				87871E5F1642323600ECDBD5 /* TorrentMetaInfo.m in Sources */,
+				87871E67164235D700ECDBD5 /* TorrentUtils.m in Sources */,
+				87871E6B16423CCE00ECDBD5 /* TorrentErrors.m in Sources */,
+				870B0FA6164257B1005087E5 /* TorrentTracker.m in Sources */,
+				871042C11642691E0086607C /* TorrentServer.m in Sources */,
+				87EAD7DB16437FDE006048F8 /* TorrentPeer.m in Sources */,
+				87F7CA5E1643AF3B00FA9B30 /* TorrentFiles.m in Sources */,
+				87F7CA641643B03A00FA9B30 /* TorrentPiece.m in Sources */,
+				87F33699164A250600292983 /* TorrentMeter.m in Sources */,
+				87F3369D164A28A700292983 /* TorrentClient.m in Sources */,
+				87F336A0164A2B0800292983 /* TorrentPeerWire.m in Sources */,
+				870064AA1664E684006D4F3E /* TorrentSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8780439216413D4100B2D162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878043A616413D4100B2D162 /* kxtorrentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EAD7DD16438AD0006048F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EAD7EE16438AD0006048F8 /* main.m in Sources */,
+				87EAD7F216438AD0006048F8 /* AppDelegate.m in Sources */,
+				875C0A77164B731C005543CC /* TorrentsViewController.m in Sources */,
+				875C0A7C164B7388005543CC /* TorrentCell.m in Sources */,
+				875C0A84164B80BA005543CC /* TorrentDetailViewController.m in Sources */,
+				875C0A87164B8166005543CC /* helpers.m in Sources */,
+				870753531650EC45006D58F2 /* TorrentPeersViewController.m in Sources */,
+				8704C1201652379500042578 /* UIColor+Kolyvan.m in Sources */,
+				87A24CBB1657A1C4004DE427 /* TorrentPeerCell.m in Sources */,
+				87EF15A41658B58400D86844 /* TorrentSwarmViewController.m in Sources */,
+				87EF15AE1658C9EA00D86844 /* TorrentPiecesViewController.m in Sources */,
+				87F818DD165CD4E800579656 /* FileBrowserViewController.m in Sources */,
+				871AC75D165F667200AF613C /* WebBrowserViewController.m in Sources */,
+				8723D1D71660A0C500C9EB69 /* FileDownloader.m in Sources */,
+				87EA8D091665DFA300785549 /* SettingsViewController.m in Sources */,
+				87B2E5FA1666170C0049E880 /* AboutViewController.m in Sources */,
+				87B2E602166629720049E880 /* LogViewController.m in Sources */,
+				87B2E6271666380B0049E880 /* UIFont+Kolyvan.m in Sources */,
+				87E08C1E166759E70005333C /* ImageViewController.m in Sources */,
+				87E08C2216675C670005333C /* UITabBarController+Kolyvan.m in Sources */,
+				870E2C0C16689D5F00424846 /* ColorTheme.m in Sources */,
+				870E2C181668BE5600424846 /* KxTableViewController.m in Sources */,
+				871336381669D2290040B800 /* BlacklistViewController.m in Sources */,
+				873125C8166B320C00D2E19D /* ProbePort.m in Sources */,
+				87EC7220166F161B00CB7F10 /* TextViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EAD7FF16438AD0006048F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EAD81216438AD0006048F8 /* SwarmLoaderTests.m in Sources */,
+				87F5096E1647742C001B2A75 /* TorrentFilesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8780439C16413D4100B2D162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8780438816413D4100B2D162 /* kxtorrent */;
+			targetProxy = 8780439B16413D4100B2D162 /* PBXContainerItemProxy */;
+		};
+		87EAD80916438AD0006048F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87EAD7E016438AD0006048F8 /* SwarmLoader */;
+			targetProxy = 87EAD80816438AD0006048F8 /* PBXContainerItemProxy */;
+		};
+		87F7CA251643935F00FA9B30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8780438816413D4100B2D162 /* kxtorrent */;
+			targetProxy = 87F7CA241643935F00FA9B30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		878043A116413D4100B2D162 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878043A216413D4100B2D162 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87EAD7EA16438AD0006048F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87EAD7EB16438AD0006048F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87EAD80D16438AD0006048F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87EAD80E16438AD0006048F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		878043A816413D4100B2D162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/kxtorrent.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor/kxtools/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kxtorrent/kxtorrent-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		878043A916413D4100B2D162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/kxtorrent.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor/kxtools/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kxtorrent/kxtorrent-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		878043AB16413D4100B2D162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/vendor/kxtools/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kxtorrent/kxtorrent-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "kxtorrentTests/kxtorrentTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		878043AC16413D4100B2D162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/vendor/kxtools/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kxtorrent/kxtorrent-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "kxtorrentTests/kxtorrentTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		87EAD81416438AD0006048F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmLoader/SwarmLoader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SwarmLoader/SwarmLoader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87EAD81516438AD0006048F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmLoader/SwarmLoader-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SwarmLoader/SwarmLoader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs\"",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87EAD81716438AD0006048F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwarmLoader.app/SwarmLoader";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmLoader/SwarmLoader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SwarmLoaderTests/SwarmLoaderTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		87EAD81816438AD0006048F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwarmLoader.app/SwarmLoader";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmLoader/SwarmLoader-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SwarmLoaderTests/SwarmLoaderTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		87EC723E166F37AE00CB7F10 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = AdHoc;
+		};
+		87EC723F166F37AE00CB7F10 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/kxtorrent.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/vendor/kxtools/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kxtorrent/kxtorrent-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		87EC7240166F37AE00CB7F10 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)/vendor/kxtools/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kxtorrent/kxtorrent-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "kxtorrentTests/kxtorrentTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = AdHoc;
+		};
+		87EC7241166F37AE00CB7F10 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Konstantin Bukreev";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmLoader/SwarmLoader-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SwarmLoader/SwarmLoader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libs\"",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63B4F545-6340-4699-8DB0-FFB973761669";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+		87EC7242166F37AE00CB7F10 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwarmLoader.app/SwarmLoader";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmLoader/SwarmLoader-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "SwarmLoaderTests/SwarmLoaderTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = AdHoc;
+		};
+		87FFE8D41640E88F00E18169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		87FFE8D51640E88F00E18169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		878043A716413D4100B2D162 /* Build configuration list for PBXNativeTarget "kxtorrent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878043A816413D4100B2D162 /* Debug */,
+				878043A916413D4100B2D162 /* Release */,
+				87EC723F166F37AE00CB7F10 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878043AA16413D4100B2D162 /* Build configuration list for PBXNativeTarget "kxtorrentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878043AB16413D4100B2D162 /* Debug */,
+				878043AC16413D4100B2D162 /* Release */,
+				87EC7240166F37AE00CB7F10 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87EAD81316438AD0006048F8 /* Build configuration list for PBXNativeTarget "SwarmLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAD81416438AD0006048F8 /* Debug */,
+				87EAD81516438AD0006048F8 /* Release */,
+				87EC7241166F37AE00CB7F10 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87EAD81616438AD0006048F8 /* Build configuration list for PBXNativeTarget "SwarmLoaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EAD81716438AD0006048F8 /* Debug */,
+				87EAD81816438AD0006048F8 /* Release */,
+				87EC7242166F37AE00CB7F10 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FFE8D21640E88F00E18169 /* Build configuration list for PBXProject "kxtorrent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FFE8D41640E88F00E18169 /* Debug */,
+				87FFE8D51640E88F00E18169 /* Release */,
+				87EC723E166F37AE00CB7F10 /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87FFE8CF1640E88F00E18169 /* Project object */;
+}
