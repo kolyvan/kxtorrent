@@ -37,6 +37,11 @@ After that, you can build and run SwarmLoader target.
 
 at least iOS 5.1 and iPhone 3GS 
 
+### Download
+
+Apple rejects any bittorent app from app store. 
+But you can download [.ipa](http://dl.dropbox.com/u/80472203/SwarmLoader.ipa) and run it on jailbroken device. 
+
 ### Screenshots:
 
 ![main](https://raw.github.com/kolyvan/kxtorrent/master/screenshots/main.png "Main")
@@ -51,9 +56,4 @@ at least iOS 5.1 and iPhone 3GS
 ### Feedback
 
 Tweet me — [@kolyvan_ru](http://twitter.com/kolyvan_ru).
-
-### Download
-
-Apple rejects any bittorent app from app store. 
-But you can download [.ipa](http://dl.dropbox.com/u/80472203/SwarmLoader.ipa) and run it on jailbroken device. 
 
