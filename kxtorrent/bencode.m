@@ -477,7 +477,6 @@ bencode_t bencode = {
     bencode_parse_value,
     bencode_parse,
     encoding_from_dict,
-  //  encode_strings,
     encode_array,
     encode_dictionary,
     encode_dictionary_except_key,

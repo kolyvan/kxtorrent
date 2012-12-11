@@ -30,7 +30,6 @@ typedef struct
     BOOL (*parse)(NSData *data, NSDictionary **outDict, NSData **outDigest, NSError **outError);
     
     NSStringEncoding (*encodingFromDict)(NSDictionary *dict);
-    //id (*encodeStrings)(id val, NSStringEncoding encoding);
     NSArray *(*encodeArray)(NSArray *array, NSStringEncoding encoding);
     NSDictionary *(*encodeDictionary)(NSDictionary *dict, NSStringEncoding encoding);
     NSDictionary *(*encodeDictionaryExceptKey)(NSDictionary *dict, NSStringEncoding encoding, NSString *key, id *outValue);

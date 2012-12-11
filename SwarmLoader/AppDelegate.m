@@ -24,8 +24,6 @@
 #import "DDLog.h"
 #import "DDTTYLogger.h"
 
-//#import "bencode.h"
-
 static int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 @implementation AppDelegate {
@@ -80,9 +78,7 @@ static int ddLogLevel = LOG_LEVEL_VERBOSE;
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
     TorrentServer *server = [TorrentServer server];
-    
-    // [server removeObserver:self forKeyPath:@"running"];
-    
+        
     if (server.running) {
  
         _needUpdateAfterEnterBackground = _tabBarController.selectedIndex == 0;

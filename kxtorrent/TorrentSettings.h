@@ -18,8 +18,6 @@ typedef struct {
     BOOL        enableAutoBlacklist;
 
     NSUInteger  port;
-   //NSUInteger  minPort;
-   // NSUInteger  maxPort;
     NSUInteger  downloadSpeedLimit;
     NSUInteger  uploadSpeedLimit;
     NSUInteger  maxRequestBlocks;

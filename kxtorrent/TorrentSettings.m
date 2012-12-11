@@ -18,8 +18,6 @@ NSUInteger kxTorrentVersionNumber = 71;
 #define DEFAULT_enableAutoBlacklist YES
 
 #define DEFAULT_port 6881
-//#define DEFAULT_minPort 6881
-//#define DEFAULT_maxPort 6889
 #define DEFAULT_downloadSpeedLimit 307200
 #define DEFAULT_uploadSpeedLimit 51200
 #define DEFAULT_maxRequestBlocks 128
@@ -84,28 +82,6 @@ NSUInteger kxTorrentVersionNumber = 71;
     } \
 }
 
-/*
-#define LOAD_BOOL_VALUE(D, KEY) { \
-    NSNumber *n = [D numberForKey: @#KEY]; \
-    if (n) TorrentSettings.KEY = n.boolValue; \
-}
-
-#define LOAD_UINT_VALUE(D, KEY) { \
-    NSNumber *n = [D numberForKey: @#KEY]; \
-    if (n) TorrentSettings.KEY = n.unsignedIntValue; \
-}
-
-#define LOAD_FLT_VALUE(D, KEY) { \
-    NSNumber *n = [D numberForKey: @#KEY]; \
-    if (n) TorrentSettings.KEY = n.floatValue; \
-}
-
-#define LOAD_STR_VALUE(D, KEY) { \
-    NSString *s = [D stringForKey:@#KEY]; \
-    if (s) KEY = s; \
-}
-*/
- 
 #define SAVE_NUM_VALUE(D, KEY, FLAG) { \
     if (FLAG || TorrentSettings.KEY != DEFAULT_##KEY) \
         [D setValue:@(TorrentSettings.KEY) forKey:@#KEY]; \
@@ -160,8 +136,6 @@ static void load(NSDictionary *dict)
     LOAD_BOOL_VALUE(dict, enableAutoBlacklist);
 
     LOAD_UINT_VALUE(dict, port);
-    //LOAD_UINT_VALUE(dict, minPort);
-    //LOAD_UINT_VALUE(dict, maxPort);
     LOAD_UINT_VALUE(dict, downloadSpeedLimit);
     LOAD_UINT_VALUE(dict, uploadSpeedLimit);
     LOAD_UINT_VALUE(dict, maxRequestBlocks);
@@ -199,8 +173,6 @@ static NSDictionary *  save(BOOL all)
     SAVE_NUM_VALUE(dict, enableAutoBlacklist, all);
 
     SAVE_NUM_VALUE(dict, port, all);
-    //SAVE_NUM_VALUE(dict, minPort, all);
-    //SAVE_NUM_VALUE(dict, maxPort, all);
     SAVE_NUM_VALUE(dict, downloadSpeedLimit, all);
     SAVE_NUM_VALUE(dict, uploadSpeedLimit, all);
     SAVE_NUM_VALUE(dict, maxRequestBlocks, all);
@@ -238,8 +210,6 @@ TorrentSettings_t TorrentSettings = {
     DEFAULT_enableAutoBlacklist,
 
     DEFAULT_port,
-    //DEFAULT_minPort,
-    //DEFAULT_maxPort,
     DEFAULT_downloadSpeedLimit,
     DEFAULT_uploadSpeedLimit,    
     DEFAULT_maxRequestBlocks,

@@ -127,6 +127,12 @@
 		87EC52E7167715EC00864C04 /* libkxmovie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EC52E4167715B600864C04 /* libkxmovie.a */; };
 		87EC52EC1677191C00864C04 /* kxmovie.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 87EC52E91677191C00864C04 /* kxmovie.bundle */; };
 		87EC52ED1677196D00864C04 /* libkxtorrent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8780438916413D4100B2D162 /* libkxtorrent.a */; };
+		87EC52EF16771CB500864C04 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC5292167714AC00864C04 /* DDLog.m */; };
+		87EC52F016771CBA00864C04 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC5294167714AC00864C04 /* DDTTYLogger.m */; };
+		87EC52F116771CBC00864C04 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC5290167714AC00864C04 /* DDASLLogger.m */; };
+		87EC52F216771CBE00864C04 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC528E167714AC00864C04 /* DDAbstractDatabaseLogger.m */; };
+		87EC52F316771CE500864C04 /* NSArray+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52AE1677154100864C04 /* NSArray+Kolyvan.m */; };
+		87EC52F416771CF600864C04 /* NSData+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52B01677154100864C04 /* NSData+Kolyvan.m */; };
 		87EC720A166F080300CB7F10 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EC7208166F080300CB7F10 /* Icon.png */; };
 		87EC720B166F080300CB7F10 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EC7209166F080300CB7F10 /* Icon@2x.png */; };
 		87EC7210166F084400CB7F10 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD7F316438AD0006048F8 /* Default.png */; };
@@ -1081,6 +1087,10 @@
 				87EC52CB1677154100864C04 /* NSDictionary+Kolyvan.m in Sources */,
 				87EC52CD1677154100864C04 /* NSObject+Kolyvan.m in Sources */,
 				87EC52CF1677154100864C04 /* NSString+Kolyvan.m in Sources */,
+				87EC52EF16771CB500864C04 /* DDLog.m in Sources */,
+				87EC52F016771CBA00864C04 /* DDTTYLogger.m in Sources */,
+				87EC52F116771CBC00864C04 /* DDASLLogger.m in Sources */,
+				87EC52F216771CBE00864C04 /* DDAbstractDatabaseLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1089,6 +1099,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				878043A616413D4100B2D162 /* kxtorrentTests.m in Sources */,
+				87EC52F316771CE500864C04 /* NSArray+Kolyvan.m in Sources */,
+				87EC52F416771CF600864C04 /* NSData+Kolyvan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1215,10 +1227,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/kxtorrent.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/vendor/kxtools/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1252,10 +1261,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/kxtorrent.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/vendor/kxtools/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "kxtorrent/kxtorrent-Prefix.pch";
@@ -1284,7 +1290,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/vendor/kxtools/Frameworks\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1321,7 +1326,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/vendor/kxtools/Frameworks\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1495,10 +1499,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/kxtorrent.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/vendor/kxtools/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "kxtorrent/kxtorrent-Prefix.pch";
@@ -1527,7 +1528,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-					"\"$(SRCROOT)/vendor/kxtools/Frameworks\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
