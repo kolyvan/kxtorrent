@@ -1,6 +1,22 @@
 KxTorrent is a torrent (bittorrent) client for iPhone. 
 ======================================================
 
+### Build instructions:
+	
+First, you need update submodules.
+For this open console and type in
+
+	cd kxtorrent
+	git submodule update --init	--recursive
+
+Then, build ffmpeg
+
+	cd submodules/kxmovie	
+	rake build_ffmpeg
+
+After that, you can build and run SwarmLoader target.
+
+
 ### Features:
 
 - play media (video and audio)
@@ -35,3 +51,9 @@ at least iOS 5.1 and iPhone 3GS
 ### Feedback
 
 Tweet me — [@kolyvan_ru](http://twitter.com/kolyvan_ru).
+
+### Download
+
+Apple rejects any bittorent app from app store. 
+But you can download [.ipa](http://dl.dropbox.com/u/80472203/SwarmLoader.ipa) and run it on jailbroken device. 
+
