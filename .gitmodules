@@ -1,0 +1,15 @@
+[submodule "submodules/kxtools"]
+	path = submodules/kxtools
+	url = git://github.com/kolyvan/kxtools.git
+[submodule "submodules/CocoaAsyncSocket"]
+	path = submodules/CocoaAsyncSocket
+	url = git://github.com/robbiehanson/CocoaAsyncSocket.git
+[submodule "submodules/CocoaLumberjack"]
+	path = submodules/CocoaLumberjack
+	url = git://github.com/robbiehanson/CocoaLumberjack.git
+[submodule "submodules/SVProgressHUD"]
+	path = submodules/SVProgressHUD
+	url = git://github.com/samvermette/SVProgressHUD.git
+[submodule "submodules/kxmovie"]
+	path = submodules/kxmovie
+	url = git://github.com/kolyvan/kxmovie.git

@@ -93,6 +93,38 @@
 		87EAD80716438AD0006048F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FFE8DD1640E8BD00E18169 /* Foundation.framework */; };
 		87EAD80F16438AD0006048F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD80D16438AD0006048F8 /* InfoPlist.strings */; };
 		87EAD81216438AD0006048F8 /* SwarmLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EAD81116438AD0006048F8 /* SwarmLoaderTests.m */; };
+		87EC528A1677146A00864C04 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52891677146A00864C04 /* GCDAsyncSocket.m */; };
+		87EC5295167714AC00864C04 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC528E167714AC00864C04 /* DDAbstractDatabaseLogger.m */; };
+		87EC5296167714AC00864C04 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC5290167714AC00864C04 /* DDASLLogger.m */; };
+		87EC5297167714AC00864C04 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC5292167714AC00864C04 /* DDLog.m */; };
+		87EC5298167714AC00864C04 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC5294167714AC00864C04 /* DDTTYLogger.m */; };
+		87EC52B91677154100864C04 /* KxBitArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52A11677154100864C04 /* KxBitArray.m */; };
+		87EC52BA1677154100864C04 /* KxBitArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52A11677154100864C04 /* KxBitArray.m */; };
+		87EC52BB1677154100864C04 /* KxCast.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52A31677154100864C04 /* KxCast.m */; };
+		87EC52BC1677154100864C04 /* KxCast.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52A31677154100864C04 /* KxCast.m */; };
+		87EC52BD1677154100864C04 /* KxConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52A51677154100864C04 /* KxConsole.m */; };
+		87EC52BE1677154100864C04 /* KxConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52A51677154100864C04 /* KxConsole.m */; };
+		87EC52BF1677154100864C04 /* KxList.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52A71677154100864C04 /* KxList.m */; };
+		87EC52C01677154100864C04 /* KxList.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52A71677154100864C04 /* KxList.m */; };
+		87EC52C11677154100864C04 /* KxTuple2.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52AA1677154100864C04 /* KxTuple2.m */; };
+		87EC52C21677154100864C04 /* KxTuple2.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52AA1677154100864C04 /* KxTuple2.m */; };
+		87EC52C31677154100864C04 /* KxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52AC1677154100864C04 /* KxUtils.m */; };
+		87EC52C41677154100864C04 /* KxUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52AC1677154100864C04 /* KxUtils.m */; };
+		87EC52C51677154100864C04 /* NSArray+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52AE1677154100864C04 /* NSArray+Kolyvan.m */; };
+		87EC52C61677154100864C04 /* NSArray+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52AE1677154100864C04 /* NSArray+Kolyvan.m */; };
+		87EC52C71677154100864C04 /* NSData+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52B01677154100864C04 /* NSData+Kolyvan.m */; };
+		87EC52C81677154100864C04 /* NSData+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52B01677154100864C04 /* NSData+Kolyvan.m */; };
+		87EC52C91677154100864C04 /* NSDate+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52B21677154100864C04 /* NSDate+Kolyvan.m */; };
+		87EC52CA1677154100864C04 /* NSDate+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52B21677154100864C04 /* NSDate+Kolyvan.m */; };
+		87EC52CB1677154100864C04 /* NSDictionary+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52B41677154100864C04 /* NSDictionary+Kolyvan.m */; };
+		87EC52CC1677154100864C04 /* NSDictionary+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52B41677154100864C04 /* NSDictionary+Kolyvan.m */; };
+		87EC52CD1677154100864C04 /* NSObject+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52B61677154100864C04 /* NSObject+Kolyvan.m */; };
+		87EC52CE1677154100864C04 /* NSObject+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52B61677154100864C04 /* NSObject+Kolyvan.m */; };
+		87EC52CF1677154100864C04 /* NSString+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52B81677154100864C04 /* NSString+Kolyvan.m */; };
+		87EC52D01677154100864C04 /* NSString+Kolyvan.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52B81677154100864C04 /* NSString+Kolyvan.m */; };
+		87EC52D51677157F00864C04 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 87EC52D21677157F00864C04 /* SVProgressHUD.bundle */; };
+		87EC52D71677157F00864C04 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52D41677157F00864C04 /* SVProgressHUD.m */; };
+		87EC52E7167715EC00864C04 /* libkxmovie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EC52E4167715B600864C04 /* libkxmovie.a */; };
 		87EC720A166F080300CB7F10 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EC7208166F080300CB7F10 /* Icon.png */; };
 		87EC720B166F080300CB7F10 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EC7209166F080300CB7F10 /* Icon@2x.png */; };
 		87EC7210166F084400CB7F10 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD7F316438AD0006048F8 /* Default.png */; };
@@ -137,6 +169,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = 87EAD7E016438AD0006048F8;
 			remoteInfo = SwarmLoader;
+		};
+		87EC52E1167715B600864C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87EC52D8167715B600864C04 /* kxmovie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 87E793F816390F6D000A0848;
+			remoteInfo = KxMovieExample;
+		};
+		87EC52E3167715B600864C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87EC52D8167715B600864C04 /* kxmovie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 87FD6175163A75440090956E;
+			remoteInfo = kxmovie;
+		};
+		87EC52E5167715DB00864C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87EC52D8167715B600864C04 /* kxmovie.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 87FD6174163A75440090956E;
+			remoteInfo = kxmovie;
 		};
 		87F7CA241643935F00FA9B30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -278,6 +331,46 @@
 		87EAD81116438AD0006048F8 /* SwarmLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwarmLoaderTests.m; sourceTree = "<group>"; };
 		87EAD82F16439176006048F8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		87EAD83216439197006048F8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		87EC52881677146A00864C04 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = submodules/CocoaAsyncSocket/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		87EC52891677146A00864C04 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = submodules/CocoaAsyncSocket/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		87EC528D167714AC00864C04 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = submodules/CocoaLumberjack/Lumberjack/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		87EC528E167714AC00864C04 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = submodules/CocoaLumberjack/Lumberjack/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		87EC528F167714AC00864C04 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = submodules/CocoaLumberjack/Lumberjack/DDASLLogger.h; sourceTree = "<group>"; };
+		87EC5290167714AC00864C04 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = submodules/CocoaLumberjack/Lumberjack/DDASLLogger.m; sourceTree = "<group>"; };
+		87EC5291167714AC00864C04 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = submodules/CocoaLumberjack/Lumberjack/DDLog.h; sourceTree = "<group>"; };
+		87EC5292167714AC00864C04 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = submodules/CocoaLumberjack/Lumberjack/DDLog.m; sourceTree = "<group>"; };
+		87EC5293167714AC00864C04 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = submodules/CocoaLumberjack/Lumberjack/DDTTYLogger.h; sourceTree = "<group>"; };
+		87EC5294167714AC00864C04 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = submodules/CocoaLumberjack/Lumberjack/DDTTYLogger.m; sourceTree = "<group>"; };
+		87EC529F1677154100864C04 /* KxArc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxArc.h; path = submodules/kxtools/kxtools/KxArc.h; sourceTree = "<group>"; };
+		87EC52A01677154100864C04 /* KxBitArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxBitArray.h; path = submodules/kxtools/kxtools/KxBitArray.h; sourceTree = "<group>"; };
+		87EC52A11677154100864C04 /* KxBitArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KxBitArray.m; path = submodules/kxtools/kxtools/KxBitArray.m; sourceTree = "<group>"; };
+		87EC52A21677154100864C04 /* KxCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxCast.h; path = submodules/kxtools/kxtools/KxCast.h; sourceTree = "<group>"; };
+		87EC52A31677154100864C04 /* KxCast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KxCast.m; path = submodules/kxtools/kxtools/KxCast.m; sourceTree = "<group>"; };
+		87EC52A41677154100864C04 /* KxConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxConsole.h; path = submodules/kxtools/kxtools/KxConsole.h; sourceTree = "<group>"; };
+		87EC52A51677154100864C04 /* KxConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KxConsole.m; path = submodules/kxtools/kxtools/KxConsole.m; sourceTree = "<group>"; };
+		87EC52A61677154100864C04 /* KxList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxList.h; path = submodules/kxtools/kxtools/KxList.h; sourceTree = "<group>"; };
+		87EC52A71677154100864C04 /* KxList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KxList.m; path = submodules/kxtools/kxtools/KxList.m; sourceTree = "<group>"; };
+		87EC52A81677154100864C04 /* KxMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxMacros.h; path = submodules/kxtools/kxtools/KxMacros.h; sourceTree = "<group>"; };
+		87EC52A91677154100864C04 /* KxTuple2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxTuple2.h; path = submodules/kxtools/kxtools/KxTuple2.h; sourceTree = "<group>"; };
+		87EC52AA1677154100864C04 /* KxTuple2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KxTuple2.m; path = submodules/kxtools/kxtools/KxTuple2.m; sourceTree = "<group>"; };
+		87EC52AB1677154100864C04 /* KxUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxUtils.h; path = submodules/kxtools/kxtools/KxUtils.h; sourceTree = "<group>"; };
+		87EC52AC1677154100864C04 /* KxUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KxUtils.m; path = submodules/kxtools/kxtools/KxUtils.m; sourceTree = "<group>"; };
+		87EC52AD1677154100864C04 /* NSArray+Kolyvan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Kolyvan.h"; path = "submodules/kxtools/kxtools/NSArray+Kolyvan.h"; sourceTree = "<group>"; };
+		87EC52AE1677154100864C04 /* NSArray+Kolyvan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Kolyvan.m"; path = "submodules/kxtools/kxtools/NSArray+Kolyvan.m"; sourceTree = "<group>"; };
+		87EC52AF1677154100864C04 /* NSData+Kolyvan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Kolyvan.h"; path = "submodules/kxtools/kxtools/NSData+Kolyvan.h"; sourceTree = "<group>"; };
+		87EC52B01677154100864C04 /* NSData+Kolyvan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Kolyvan.m"; path = "submodules/kxtools/kxtools/NSData+Kolyvan.m"; sourceTree = "<group>"; };
+		87EC52B11677154100864C04 /* NSDate+Kolyvan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Kolyvan.h"; path = "submodules/kxtools/kxtools/NSDate+Kolyvan.h"; sourceTree = "<group>"; };
+		87EC52B21677154100864C04 /* NSDate+Kolyvan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Kolyvan.m"; path = "submodules/kxtools/kxtools/NSDate+Kolyvan.m"; sourceTree = "<group>"; };
+		87EC52B31677154100864C04 /* NSDictionary+Kolyvan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Kolyvan.h"; path = "submodules/kxtools/kxtools/NSDictionary+Kolyvan.h"; sourceTree = "<group>"; };
+		87EC52B41677154100864C04 /* NSDictionary+Kolyvan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Kolyvan.m"; path = "submodules/kxtools/kxtools/NSDictionary+Kolyvan.m"; sourceTree = "<group>"; };
+		87EC52B51677154100864C04 /* NSObject+Kolyvan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Kolyvan.h"; path = "submodules/kxtools/kxtools/NSObject+Kolyvan.h"; sourceTree = "<group>"; };
+		87EC52B61677154100864C04 /* NSObject+Kolyvan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Kolyvan.m"; path = "submodules/kxtools/kxtools/NSObject+Kolyvan.m"; sourceTree = "<group>"; };
+		87EC52B71677154100864C04 /* NSString+Kolyvan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Kolyvan.h"; path = "submodules/kxtools/kxtools/NSString+Kolyvan.h"; sourceTree = "<group>"; };
+		87EC52B81677154100864C04 /* NSString+Kolyvan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Kolyvan.m"; path = "submodules/kxtools/kxtools/NSString+Kolyvan.m"; sourceTree = "<group>"; };
+		87EC52D21677157F00864C04 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		87EC52D31677157F00864C04 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		87EC52D41677157F00864C04 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		87EC52D8167715B600864C04 /* kxmovie.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = kxmovie.xcodeproj; path = submodules/kxmovie/kxmovie.xcodeproj; sourceTree = "<group>"; };
 		87EC7208166F080300CB7F10 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		87EC7209166F080300CB7F10 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		87EC721E166F161B00CB7F10 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
@@ -341,6 +434,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EC52E7167715EC00864C04 /* libkxmovie.a in Frameworks */,
 				87F7CA311643940600FA9B30 /* libz.dylib in Frameworks */,
 				87EAD7E616438AD0006048F8 /* CoreGraphics.framework in Frameworks */,
 				87EAD7E316438AD0006048F8 /* UIKit.framework in Frameworks */,
@@ -540,8 +634,89 @@
 		87EC527B1677114F00864C04 /* submodules */ = {
 			isa = PBXGroup;
 			children = (
+				87EC52D11677157F00864C04 /* SVProgressHUD */,
+				87EC529E1677152D00864C04 /* kxtools */,
+				87EC528C1677149700864C04 /* CocoaLumberjack */,
+				87EC52871677145C00864C04 /* CocoaAsyncSocket */,
 			);
 			name = submodules;
+			sourceTree = "<group>";
+		};
+		87EC52871677145C00864C04 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				87EC52881677146A00864C04 /* GCDAsyncSocket.h */,
+				87EC52891677146A00864C04 /* GCDAsyncSocket.m */,
+			);
+			name = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		87EC528C1677149700864C04 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				87EC528D167714AC00864C04 /* DDAbstractDatabaseLogger.h */,
+				87EC528E167714AC00864C04 /* DDAbstractDatabaseLogger.m */,
+				87EC528F167714AC00864C04 /* DDASLLogger.h */,
+				87EC5290167714AC00864C04 /* DDASLLogger.m */,
+				87EC5291167714AC00864C04 /* DDLog.h */,
+				87EC5292167714AC00864C04 /* DDLog.m */,
+				87EC5293167714AC00864C04 /* DDTTYLogger.h */,
+				87EC5294167714AC00864C04 /* DDTTYLogger.m */,
+			);
+			name = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		87EC529E1677152D00864C04 /* kxtools */ = {
+			isa = PBXGroup;
+			children = (
+				87EC529F1677154100864C04 /* KxArc.h */,
+				87EC52A01677154100864C04 /* KxBitArray.h */,
+				87EC52A11677154100864C04 /* KxBitArray.m */,
+				87EC52A21677154100864C04 /* KxCast.h */,
+				87EC52A31677154100864C04 /* KxCast.m */,
+				87EC52A41677154100864C04 /* KxConsole.h */,
+				87EC52A51677154100864C04 /* KxConsole.m */,
+				87EC52A61677154100864C04 /* KxList.h */,
+				87EC52A71677154100864C04 /* KxList.m */,
+				87EC52A81677154100864C04 /* KxMacros.h */,
+				87EC52A91677154100864C04 /* KxTuple2.h */,
+				87EC52AA1677154100864C04 /* KxTuple2.m */,
+				87EC52AB1677154100864C04 /* KxUtils.h */,
+				87EC52AC1677154100864C04 /* KxUtils.m */,
+				87EC52AD1677154100864C04 /* NSArray+Kolyvan.h */,
+				87EC52AE1677154100864C04 /* NSArray+Kolyvan.m */,
+				87EC52AF1677154100864C04 /* NSData+Kolyvan.h */,
+				87EC52B01677154100864C04 /* NSData+Kolyvan.m */,
+				87EC52B11677154100864C04 /* NSDate+Kolyvan.h */,
+				87EC52B21677154100864C04 /* NSDate+Kolyvan.m */,
+				87EC52B31677154100864C04 /* NSDictionary+Kolyvan.h */,
+				87EC52B41677154100864C04 /* NSDictionary+Kolyvan.m */,
+				87EC52B51677154100864C04 /* NSObject+Kolyvan.h */,
+				87EC52B61677154100864C04 /* NSObject+Kolyvan.m */,
+				87EC52B71677154100864C04 /* NSString+Kolyvan.h */,
+				87EC52B81677154100864C04 /* NSString+Kolyvan.m */,
+			);
+			name = kxtools;
+			sourceTree = "<group>";
+		};
+		87EC52D11677157F00864C04 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				87EC52D21677157F00864C04 /* SVProgressHUD.bundle */,
+				87EC52D31677157F00864C04 /* SVProgressHUD.h */,
+				87EC52D41677157F00864C04 /* SVProgressHUD.m */,
+			);
+			name = SVProgressHUD;
+			path = submodules/SVProgressHUD/SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		87EC52D9167715B600864C04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87EC52E2167715B600864C04 /* KxMovieExample.app */,
+				87EC52E4167715B600864C04 /* libkxmovie.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		87F7CA271643938800FA9B30 /* resources */ = {
@@ -588,6 +763,7 @@
 		87FFE8CD1640E88F00E18169 = {
 			isa = PBXGroup;
 			children = (
+				87EC52D8167715B600864C04 /* kxmovie.xcodeproj */,
 				87EC527B1677114F00864C04 /* submodules */,
 				8780438B16413D4100B2D162 /* kxtorrent */,
 				8780439E16413D4100B2D162 /* kxtorrentTests */,
@@ -681,6 +857,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				87EC52E6167715DB00864C04 /* PBXTargetDependency */,
 				87F7CA251643935F00FA9B30 /* PBXTargetDependency */,
 			);
 			name = SwarmLoader;
@@ -725,6 +902,12 @@
 			mainGroup = 87FFE8CD1640E88F00E18169;
 			productRefGroup = 87FFE8DB1640E8BD00E18169 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 87EC52D9167715B600864C04 /* Products */;
+					ProjectRef = 87EC52D8167715B600864C04 /* kxmovie.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8780438816413D4100B2D162 /* kxtorrent */,
@@ -734,6 +917,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		87EC52E2167715B600864C04 /* KxMovieExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = KxMovieExample.app;
+			remoteRef = 87EC52E1167715B600864C04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		87EC52E4167715B600864C04 /* libkxmovie.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libkxmovie.a;
+			remoteRef = 87EC52E3167715B600864C04 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8780439416413D4100B2D162 /* Resources */ = {
@@ -792,6 +992,7 @@
 				87EC7211166F084C00CB7F10 /* Default@2x.png in Resources */,
 				87EAD7F816438AD0006048F8 /* Default-568h@2x.png in Resources */,
 				87EC7229166F20D900CB7F10 /* firstrun in Resources */,
+				87EC52D51677157F00864C04 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,6 +1053,18 @@
 				87F3369D164A28A700292983 /* TorrentClient.m in Sources */,
 				87F336A0164A2B0800292983 /* TorrentPeerWire.m in Sources */,
 				870064AA1664E684006D4F3E /* TorrentSettings.m in Sources */,
+				87EC52B91677154100864C04 /* KxBitArray.m in Sources */,
+				87EC52BB1677154100864C04 /* KxCast.m in Sources */,
+				87EC52BD1677154100864C04 /* KxConsole.m in Sources */,
+				87EC52BF1677154100864C04 /* KxList.m in Sources */,
+				87EC52C11677154100864C04 /* KxTuple2.m in Sources */,
+				87EC52C31677154100864C04 /* KxUtils.m in Sources */,
+				87EC52C51677154100864C04 /* NSArray+Kolyvan.m in Sources */,
+				87EC52C71677154100864C04 /* NSData+Kolyvan.m in Sources */,
+				87EC52C91677154100864C04 /* NSDate+Kolyvan.m in Sources */,
+				87EC52CB1677154100864C04 /* NSDictionary+Kolyvan.m in Sources */,
+				87EC52CD1677154100864C04 /* NSObject+Kolyvan.m in Sources */,
+				87EC52CF1677154100864C04 /* NSString+Kolyvan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -892,6 +1105,24 @@
 				871336381669D2290040B800 /* BlacklistViewController.m in Sources */,
 				873125C8166B320C00D2E19D /* ProbePort.m in Sources */,
 				87EC7220166F161B00CB7F10 /* TextViewController.m in Sources */,
+				87EC528A1677146A00864C04 /* GCDAsyncSocket.m in Sources */,
+				87EC5295167714AC00864C04 /* DDAbstractDatabaseLogger.m in Sources */,
+				87EC5296167714AC00864C04 /* DDASLLogger.m in Sources */,
+				87EC5297167714AC00864C04 /* DDLog.m in Sources */,
+				87EC5298167714AC00864C04 /* DDTTYLogger.m in Sources */,
+				87EC52BA1677154100864C04 /* KxBitArray.m in Sources */,
+				87EC52BC1677154100864C04 /* KxCast.m in Sources */,
+				87EC52BE1677154100864C04 /* KxConsole.m in Sources */,
+				87EC52C01677154100864C04 /* KxList.m in Sources */,
+				87EC52C21677154100864C04 /* KxTuple2.m in Sources */,
+				87EC52C41677154100864C04 /* KxUtils.m in Sources */,
+				87EC52C61677154100864C04 /* NSArray+Kolyvan.m in Sources */,
+				87EC52C81677154100864C04 /* NSData+Kolyvan.m in Sources */,
+				87EC52CA1677154100864C04 /* NSDate+Kolyvan.m in Sources */,
+				87EC52CC1677154100864C04 /* NSDictionary+Kolyvan.m in Sources */,
+				87EC52CE1677154100864C04 /* NSObject+Kolyvan.m in Sources */,
+				87EC52D01677154100864C04 /* NSString+Kolyvan.m in Sources */,
+				87EC52D71677157F00864C04 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -916,6 +1147,11 @@
 			isa = PBXTargetDependency;
 			target = 87EAD7E016438AD0006048F8 /* SwarmLoader */;
 			targetProxy = 87EAD80816438AD0006048F8 /* PBXContainerItemProxy */;
+		};
+		87EC52E6167715DB00864C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = kxmovie;
+			targetProxy = 87EC52E5167715DB00864C04 /* PBXContainerItemProxy */;
 		};
 		87F7CA251643935F00FA9B30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
