@@ -125,6 +125,8 @@
 		87EC52D51677157F00864C04 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 87EC52D21677157F00864C04 /* SVProgressHUD.bundle */; };
 		87EC52D71677157F00864C04 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC52D41677157F00864C04 /* SVProgressHUD.m */; };
 		87EC52E7167715EC00864C04 /* libkxmovie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EC52E4167715B600864C04 /* libkxmovie.a */; };
+		87EC52EC1677191C00864C04 /* kxmovie.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 87EC52E91677191C00864C04 /* kxmovie.bundle */; };
+		87EC52ED1677196D00864C04 /* libkxtorrent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8780438916413D4100B2D162 /* libkxtorrent.a */; };
 		87EC720A166F080300CB7F10 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EC7208166F080300CB7F10 /* Icon.png */; };
 		87EC720B166F080300CB7F10 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EC7209166F080300CB7F10 /* Icon@2x.png */; };
 		87EC7210166F084400CB7F10 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87EAD7F316438AD0006048F8 /* Default.png */; };
@@ -371,6 +373,8 @@
 		87EC52D31677157F00864C04 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		87EC52D41677157F00864C04 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		87EC52D8167715B600864C04 /* kxmovie.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = kxmovie.xcodeproj; path = submodules/kxmovie/kxmovie.xcodeproj; sourceTree = "<group>"; };
+		87EC52E91677191C00864C04 /* kxmovie.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = kxmovie.bundle; path = submodules/kxmovie/kxmovie/kxmovie.bundle; sourceTree = "<group>"; };
+		87EC52EB1677191C00864C04 /* KxMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxMovieViewController.h; path = submodules/kxmovie/kxmovie/KxMovieViewController.h; sourceTree = "<group>"; };
 		87EC7208166F080300CB7F10 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		87EC7209166F080300CB7F10 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		87EC721E166F161B00CB7F10 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
@@ -435,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87EC52E7167715EC00864C04 /* libkxmovie.a in Frameworks */,
+				87EC52ED1677196D00864C04 /* libkxtorrent.a in Frameworks */,
 				87F7CA311643940600FA9B30 /* libz.dylib in Frameworks */,
 				87EAD7E616438AD0006048F8 /* CoreGraphics.framework in Frameworks */,
 				87EAD7E316438AD0006048F8 /* UIKit.framework in Frameworks */,
@@ -634,6 +639,7 @@
 		87EC527B1677114F00864C04 /* submodules */ = {
 			isa = PBXGroup;
 			children = (
+				87EC52E81677190500864C04 /* kxmovie */,
 				87EC52D11677157F00864C04 /* SVProgressHUD */,
 				87EC529E1677152D00864C04 /* kxtools */,
 				87EC528C1677149700864C04 /* CocoaLumberjack */,
@@ -717,6 +723,15 @@
 				87EC52E4167715B600864C04 /* libkxmovie.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		87EC52E81677190500864C04 /* kxmovie */ = {
+			isa = PBXGroup;
+			children = (
+				87EC52E91677191C00864C04 /* kxmovie.bundle */,
+				87EC52EB1677191C00864C04 /* KxMovieViewController.h */,
+			);
+			name = kxmovie;
 			sourceTree = "<group>";
 		};
 		87F7CA271643938800FA9B30 /* resources */ = {
@@ -993,6 +1008,7 @@
 				87EAD7F816438AD0006048F8 /* Default-568h@2x.png in Resources */,
 				87EC7229166F20D900CB7F10 /* firstrun in Resources */,
 				87EC52D51677157F00864C04 /* SVProgressHUD.bundle in Resources */,
+				87EC52EC1677191C00864C04 /* kxmovie.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1352,10 +1368,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "SwarmLoader/SwarmLoader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/libs\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -1386,10 +1399,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "SwarmLoader/SwarmLoader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/libs\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -1557,10 +1567,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "SwarmLoader/SwarmLoader-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/libs\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "63B4F545-6340-4699-8DB0-FFB973761669";
